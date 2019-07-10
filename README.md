@@ -1,4 +1,5 @@
-# Meddlesome is a data frame interpreter to get a visual first look 
+# Meddlesome 
+##is a data frame interpreter to get a visual first look 
 
 x = your dataframe as a .csv
 info(x)
