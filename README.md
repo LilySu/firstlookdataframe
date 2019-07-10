@@ -8,7 +8,7 @@ info(x)
 -saves the above plots in directory as PlotOfNaNinDF.png and correlation_matrix_non_numeric.png
 
 ![NaN](/PlotOfNaNinDF.png)
-![CorrelationMatrix](/correlation_matrix_non_numeric.png)
+![CorrelationMatrix](/correlation_matrix_num_and_non_num.png)
 
 Dependencies:
 pandas
