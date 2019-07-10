@@ -1,5 +1,18 @@
-# Example Package
+# Meddlesome is a data frame interpreter to get a visual first look 
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+x = your dataframe as a .csv
+info(x)
+-outputs a list of NaN counts by feature 
+-plots NaN occurences visually, specifically the axes are features by index. 
+-plots correlation two matrixes via seaborn heatmaps one for numeric values, one for non-numeric values that have been ordinal-encoded
+-saves the above plots in directory as PlotOfNaNinDF.png and correlation_matrix_non_numeric.png
+
+![GitHub Logo](/images/PlotOfNaNinDF.png)
+![GitHub Logo](/images/correlation_matrix_non_numeric.png)
+
+Dependencies:
+pandas
+numpy
+seaborn
+matplotlib
+catefory_encoders
