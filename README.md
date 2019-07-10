@@ -7,8 +7,8 @@ info(x)
 -plots correlation two matrixes via seaborn heatmaps one for numeric values, one for non-numeric values that have been ordinal-encoded
 -saves the above plots in directory as PlotOfNaNinDF.png and correlation_matrix_non_numeric.png
 
-![GitHub Logo](/PlotOfNaNinDF.png)
-![GitHub Logo](/correlation_matrix_non_numeric.png)
+![NaN](/PlotOfNaNinDF.png)
+![CorrelationMatrix](/correlation_matrix_non_numeric.png)
 
 Dependencies:
 pandas
