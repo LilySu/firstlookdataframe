@@ -1,5 +1,5 @@
 # Meddlesome 
-is a data frame interpreter to get a visual first look 
+is a data frame interpreter to get a visual first look at the NaN and correlations in your data frame 
 
 x = your dataframe as a .csv
 info(x)
